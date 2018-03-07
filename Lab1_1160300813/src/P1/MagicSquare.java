@@ -118,6 +118,16 @@ public class MagicSquare {
     				flag = false;
     			}
     		}
+    		for (int i = 0; i < Length; i++) {
+    			int s = 0;
+    			for (int j = 0; j < Length; j++) {
+    				s += Matrix[j][i];
+    			}
+    			if (sum != s) {
+    				//System.out.print("");
+    				flag = false;
+    			}
+    		}
     		int s1 = 0;
     		int s2 = 0;
     		for (int i = 0; i < Length; i++) {
