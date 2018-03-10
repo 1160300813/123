@@ -75,6 +75,7 @@ public class MagicSquare {
     			catch(NumberFormatException ex) {
     				flag = false;
     				//System.out.print("Number Format Exception : ");
+    				
     				return false;
     			}
     		}
